@@ -1,1 +1,26 @@
-# CSharpEgitimKampi301
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Bomb.png" alt="Bomb" width="35" height="35" /> CSharpEgitimKampi301
+
+#### Bu repository, Murat Yücedağ’ın C# Eğitim Kampı serisinin 301. modülüne dayanan çalışmalar ve projeleri içermektedir. İçerikler, Nesne Yönelimli Programlama (OOP) ve Nesne İlişkisel Eşleme (ORM) prensiplerine dayanarak geliştirilmiştir. Bu projeler, yazılım geliştirme becerilerimi ileri seviyeye taşıyarak, orta düzeydeki yazılım mühendisliği bilgi ve yetkinliklerimi pekiştirmemi sağladı. Şimdi, bu süreçte kazandığım bilgileri ve deneyimleri paylaşmak amacıyla bu repo'yu sunuyorum. 
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark.png" alt="Bookmark" width="25" height="25"/> DERS 11 OOP Modülü: C# ile N Katmanlı Mimari Entity Layer
+#### Bu derste, Code First yaklaşımı kullanarak N Katmanlı Mimari tasarımına başlandı. İlk olarak, Entity katmanı oluşturularak veritabanı tabloları C# sınıfları olarak modellenmiş ve bu sınıfların özellikleri (property'leri) tanımlanmıştır. Bu süreçte, veritabanı şeması doğrudan sınıf yapıları üzerinden oluşturulmuş ve sınıf düzeyinde yapılan değişiklikler, veritabanına yansıtılacak şekilde yapılandırılmıştır.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25" height="25" /> DERS 12 OOP Modülü: Data Access Katmanı ve Context Sınıfı
+#### Bu derste, Entity katmanında tanımlanan varlıklar arasında *bire-çok* ilişkileri kurarak, ilişkisel veritabanı yapısını modelledik. Ardından, Data Access Katmanını oluşturarak Entity Framework kullanımıyla bu varlıkları veritabanına yansıttık. Bu süreç, katmanlar arasındaki bağımlılıkları ve referans ilişkilerini nasıl yöneteceğimizi, ayrıca ORM aracılığıyla veritabanı etkileşimlerini nasıl gerçekleştireceğimizi öğretmiş oldu.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="25" height="25" /> DERS 13 OOP Modülü: Migration İşlemleri ve Abstract Interfaceler
+#### Migration işlemlerini Package Manager Console üzerinden gerçekleştirerek, projeye veritabanı tablolarını ekledik ve mevcut yapıda gerekli güncellemeleri uyguladık. Ayrıca, Repository Design Pattern kullanarak CRUD (Create, Read, Update, Delete) işlemlerini merkezi bir yapı üzerinden yönetmeye yönelik bir yaklaşım geliştirdik. Bu süreçte, veri erişim katmanında işlevselliği soyutlamak için interface ve abstract sınıflar kullanarak, veri yönetimi işlemlerini daha esnek ve sürdürülebilir hale getirdik.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /> DERS 14 Orm Yapısı: Entity Framework DbFirst ve Model Oluşturma
+#### Bu derste, **Database-First (DbFirst)** yaklaşımını kullanarak mevcut bir veritabanını projeye entegre ettik. **Object-Relational Mapping (ORM)** araçlarından biri olan **Entity Framework** kullanılarak, veritabanındaki tabloları model sınıflarına dönüştürdük. Bu bağlamda, temel **CRUD (Create, Read, Update, Delete)** işlemlerini gerçekleştirdik ve veritabanı ile uygulama arasındaki etkileşimi sağladık.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" /> DERS 15 Entity Framework Metotları ile Proje Uygulaması
+#### "Tur Projesi" adlı veritabanını kullanarak **Database-First (DbFirst)** yaklaşımı ile veritabanını projeye entegre ettik. **Entity Framework** kullanarak veritabanındaki tabloları model sınıflarına dönüştürdük ve bu sınıflar üzerinden temel **CRUD (Create, Read, Update, Delete)** işlemlerini gerçekleştirdik. Uygulama arayüzünde yapılan düzenlemelerle, veritabanı içeriğiyle dinamik ve senkronize bir şekilde çalışmayı sağladık.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Snowflake.png" alt="Snowflake" width="25" height="25" /> DERS 16 Entity Framework: Tur Projesi Location İşlemleri
+#### Bu derste, _"Tur Projesi"_ veritabanındaki _Location_ tablosu üzerinde temel **CRUD (Create, Read, Update, Delete)** işlemlerini gerçekleştirdik. Uygulamada, bir **Form** arayüzü kullanılarak veri listeleme, ekleme, güncelleme ve silme işlemleri başarılı bir şekilde uygulanmıştır. Bu süreçte, kullanıcı etkileşimi aracılığıyla veritabanı yönetimi dinamik bir şekilde sağlanmıştır.
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun.png" alt="Sun" width="25" height="25" /> DERS 17 Entity Framework Metotları ve Linq Sorgular
+#### Bu derste, **LINQ (Language Integrated Query)** sorguları kullanarak veritabanı verileri üzerinde istatistiksel analizler gerçekleştirdik. Ayrıca, **Form** tabanlı bir uygulama üzerinden veri filtreleme ve listeleme işlemlerini uygulamalı olarak ele aldık, böylece veri manipülasyonu ve analizi süreçlerini dinamik bir şekilde gerçekleştirdik.
+
+![C#EFProjectStatistics](https://github.com/user-attachments/assets/8365fbc4-a565-406a-a97e-2e6520e2e82e)
